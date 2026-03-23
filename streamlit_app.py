@@ -11,7 +11,7 @@ st.sidebar.markdown("---") # Đường kẻ ngang ngăn cách cho đẹp
 
 # --- Phần nút tùy chỉnh ở thanh bên (Sidebar) ---
 st.sidebar.header("Cấu hình cắt")
-loai_bo_cm = st.sidebar.slider("Độ cao bỏ đi từ đầu trang (cm)", 0.0, 10.0, 2.5)
+loai_bo_cm = st.sidebar.slider("Độ cao bỏ đi từ đầu trang (cm)", 0.0, 10.0, 2.0)
 so_phan = st.sidebar.number_input("Số phần cần chia đều", min_value=1, max_value=20, value=4)
 
 pt_per_cm = 28.35
