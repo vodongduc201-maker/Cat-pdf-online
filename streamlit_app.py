@@ -5,6 +5,10 @@ import io
 st.set_page_config(page_title="Công cụ Tách PDF Tùy Chỉnh", page_icon="✂️")
 st.title("✂️ Trạm Tách PDF Thông Minh")
 
+# Thêm logo vào Sidebar
+st.sidebar.image("LON_SÁ_XỊ_320_ml-removebg-preview.png (465×536)", use_container_width=True)
+st.sidebar.markdown("---") # Đường kẻ ngang ngăn cách cho đẹp
+
 # --- Phần nút tùy chỉnh ở thanh bên (Sidebar) ---
 st.sidebar.header("Cấu hình cắt")
 loai_bo_cm = st.sidebar.slider("Độ cao bỏ đi từ đầu trang (cm)", 0.0, 10.0, 2.5)
