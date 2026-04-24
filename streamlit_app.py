@@ -49,7 +49,7 @@ if uploaded_file is not None:
     output_stream = io.BytesIO()
     writer.write(output_stream)
     
-    st.success(f"Đã xử lý xong! File của bạn: {ten_file_xuat}")
+    st.success(f"Đã xử lý ! File của bạn: {ten_file_xuat}")
     st.download_button(
         label="📥 Tải file về máy",
         data=output_stream.getvalue(),
